@@ -6,19 +6,32 @@ This project implements a convolutional neural network (CNN) for classifying han
 
 ## Project Structure
 
-accuracy│
+cnn_accuracy_imnprove│
+
 ├── .github/
+
 │   └── workflows/
+
 │       └── ci-cd.yml
+
 │
+
 ├── model/
+
 |   |── deploy.py       # To deploy model (Not Tested)
+
 │   ├── eval.py         # contains evaluation metric calculations
+
 │   ├── net.py          # Model architecture
+
 │   └── train.py        # Training script
+
 ├── tests/
+
 │   └── test_model.py   # Testing script
+
 │
+
 └── README.md            # Project documentation
 
 
